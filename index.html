@@ -904,7 +904,7 @@
 
   passwordInput.addEventListener("keydown", function (e) {
     if (e.key === "Enter") {
-      if (passwordInput.value === "1") {
+      if (passwordInput.value === "Password") {
         loginSound.play().catch(e => console.log("Couldn't play sound:", e));
         lockscreen.style.display = "none";
         desktop.style.display = "block";
@@ -931,4 +931,5 @@
   });
 </script>
 </body>
+
 </html>
